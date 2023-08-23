@@ -1,0 +1,380 @@
+{
+    "title": "Core Spanish 1.0",
+    "revdate": "08-22-2023",
+    "link": "https://www.antisyphontraining.com/",
+    "data" : [
+        {
+            "name" : "Phishing",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-1.png",
+            "type" : "initial",
+            "id" : "01",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/drk1wi/Modlishka\">https://github.com/drk1wi/Modlishka</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/how-to-phish-for-geniuses\">https://www.blackhillsinfosec.com/how-to-phish-for-geniuses</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/offensive-spf-how-to-automate-anti-phishing-reconnaissance-using-sender-policy-framework\">https://www.blackhillsinfosec.com/offensive-spf-how-to-automate-anti-phishing-reconnaissance-using-sender-policy-framework</a>"
+        },            
+        {
+            "name" : "SERVIDOR WEB COMPROMETIDO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-2.png",
+            "type" : "initial",
+            "id" : "02",
+            "details" : "<a target=\"_blank\" href=\"https://www.zaproxy.org\">https://www.zaproxy.org</a><a target=\"_blank\" href=\"https://portswigger.net/burp\">https://portswigger.net/burp</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/using-simple-burp-macros-to-automate-testing\">https://www.blackhillsinfosec.com/using-simple-burp-macros-to-automate-testing</a>"
+        },
+        {
+            "name" : "ACCESO EXTERNO A LA NUBE",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-3.png",
+            "type" : "initial",
+            "id" : "03",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/SprayingToolKit\">https://github.com/byt3bl33d3r/SprayingToolKit</a><a target=\"_blank\" href=\"https://github.com/trufflesecurity/trufflehog\">https://github.com/trufflesecurity/trufflehog</a><a target=\"_blank\" href=\"https://github.com/ustayready/fireprox\">https://github.com/ustayready/fireprox</a>"
+        },
+        {
+            "name" : "AMENAZA INTERNA",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-4.png",
+            "type" : "initial",
+            "id" : "04",
+            "details" : "<a target=\"_blank\" href=\"https://americanaddictioncenters.org\">https://americanaddictioncenters.org</a>"
+        },
+        {
+            "name" : "Password Spray",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-5.png",
+            "type" : "initial",
+            "id" : "05",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/vanhauser-thc/thc-hydra\">https://github.com/vanhauser-thc/thc-hydra</a><a target=\"_blank\" href=\"https://github.com/dafthack/MailSniper\">https://github.com/dafthack/MailSniper</a><a target=\"_blank\" href=\"https://github.com/arch4ngel/BruteLoops\">https://github.com/arch4ngel/BruteLoops</a><a target=\"_blank\" href=\"https://github.com/dafthack/MSOLSpray\">https://github.com/dafthack/MSOLSpray</a>"
+        },
+        {
+            "name" : "RELACIÓN DE CONFIANZA",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-6.png",
+            "type" : "initial",
+            "id" : "06",
+            "details" : ""
+        },
+        {
+            "name" : "INGENIERÍA SOCIAL",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-7.png",
+            "type" : "initial",
+            "id" : "07",
+            "details" : "<a target=\"_blank\" href=\"https://youtu.be/rnmcRTnTNC8\">https://youtu.be/rnmcRTnTNC8</a><a target=\"_blank\" href=\"https://youtu.be/FvhkKwHjUVg\">https://youtu.be/FvhkKwHjUVg</a>"
+        },
+        {
+            "name" : "TRAE TU PROPIO DISPOSITIVO (BYOD) (COMPROMETIDO)",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-8.png",
+            "type" : "initial",
+            "id" : "08",
+            "details" : "<a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/pentesting-dropbox-on-steroids\">https://www.blackhillsinfosec.com/pentesting-dropbox-on-steroids</a>"
+        },
+        {
+            "name" : "SERVICIO EXTERNO EXPLOTABLE",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-9.png",
+            "type" : "initial",
+            "id" : "09",
+            "details" : "<a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a>"
+        },
+        {
+            "name" : "USO DE CREDENCIALES ROBADAS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-10.png",
+            "type" : "initial",
+            "id" : "10",
+            "details" : "<a target=\"_blank\" href=\"https://keepcoding.io/blog/que-es-burp-suite/\">https://keepcoding.io/blog/que-es-burp-suite/</a><a target=\"_blank\" href=\"https://www.elladodelmal.com/2020/05/password-spraying-como-funcionan-esos\">https://www.elladodelmal.com/2020/05/password-spraying-como-funcionan-esos</a><a target=\"_blank\" href=\"https://github.com/dafthack/DomainPasswordSpray\">https://github.com/dafthack/DomainPasswordSpray</a>"
+        },
+        {
+            "name" : "PASSWORD SPRAY INTERNO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-11.png",
+            "type" : "pivot",
+            "id" : "11",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/dafthack/DomainPasswordSpray\">https://github.com/dafthack/DomainPasswordSpray</a><a target=\"_blank\" href=\"https://github.com/ropnop/kerbrute\">https://github.com/ropnop/kerbrute</a><a target=\"_blank\" href=\"https://www.elladodelmal.com/2020/05/password-spraying-como-funcionan-esos.html\">https://www.elladodelmal.com/2020/05/password-spraying-como-funcionan-esos.html</a>"
+        },
+        {
+            "name" : "KERBEROASTING/ASREPROASTING",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-12.png",
+            "type" : "pivot",
+            "id" : "12",
+            "details" : "<a target=\"_blank\" href=\"https://thehackerway.com/2021/05/06/post-explotacion-en-sistemas-windows-con-ghostpack-parte-1-de-3-2/\">https://thehackerway.com/2021/05/06/post-explotacion-en-sistemas-windows-con-ghostpack-parte-1-de-3-2/</a><a target=\"_blank\" href=\"https://thehackerway.com/2021/04/26/network-hacking-con-impacket-parte-1\">https://thehackerway.com/2021/04/26/network-hacking-con-impacket-parte-1</a><a target=\"_blank\" href=\"https://www.redeszone.net/tutoriales/seguridad/hashcat-descifrar-contrasenas\">https://www.redeszone.net/tutoriales/seguridad/hashcat-descifrar-contrasenas</a>"
+        },
+        {
+            "name" : "ENVENENAMIENTO DE PROTOCOLOS BROADCAST/MULTICAST",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-13.png",
+            "type" : "pivot",
+            "id" : "13",
+            "details" : "<a target=\"_blank\" href=\"https://www.linkedin.com/pulse/hashes-netntlm-t%C3%A9cnicas-de-relay-y-contramedidas-lacasa-s%C3%A1nchez/?originalSubdomain=es\">https://www.linkedin.com/pulse/hashes-netntlm-t%C3%A9cnicas-de-relay-y-contramedidas-lacasa-s%C3%A1nchez/?originalSubdomain=es</a>"
+        },
+        {
+            "name" : "UTILIZANDO ACTIVE DIRECTORY COMO UN ARMA",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-14.png",
+            "type" : "pivot",
+            "id" : "14",
+            "details" : "<a target=\"_blank\" href=\"https://mexicanpentester.com/2020/12/12/bloodhound-en-espanol\">https://mexicanpentester.com/2020/12/12/bloodhound-en-</a><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/DeathStar\">https://github.com/byt3bl33d3r/DeathStar</a><a target=\"_blank\" href=\"https://www.elladodelmal.com/2020/05/crackmapexec-una-navaja-suiza-para-el.html\">https://www.elladodelmal.com/2020/05/crackmapexec-una-navaja-suiza-para-el.html</a>"
+        },
+        {
+            "name" : "USO DE CREDENCIALES ROBADAS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-15.png",
+            "type" : "pivot",
+            "id" : "15",
+            "details" : "<a target=\"_blank\" href=\"https://www.boomernix.com/2019/01/powersploit-windows-hacking.html\">LINKHERE</a><a target=\"_blank\" href=\"https://learn.microsoft.com/es-es/sysinternals/downloads/adexplorer\">https://learn.microsoft.com/es-es/sysinternals/downloads/adexplorer</a><a target=\"_blank\" href=\"https://github.com/dafthack/MailSniper\">https://github.com/dafthack/Mail</a>"
+        },
+        {
+            "name" : "CREACION/MODIFICACIÓN DE NUEVO SERVICIO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-16.png",
+            "type" : "pivot",
+            "id" : "16",
+            "details" : "<a target=\"_blank\" href=\"https://thehackerway.com/2021/04/26/network-hacking-con-impacket-parte-1/\">https://thehackerway.com/2021/04/26/network-hacking-con-impacket-parte-1/</a><a target=\"_blank\" href=\"https://www.metasploit.com/\">https://www.metasploit.com/</a>"
+        },
+        {
+            "name" : "ESCALAMIENTO DE PRIVILEGIOS LOCALES",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-17.png",
+            "type" : "pivot",
+            "id" : "17",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/slyd0g/DLLHijackTest\">https://github.com/slyd0g/DLLHijackTest</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/powershell-without-powershell-how-to-bypass-application-whitelisting-environment-restrictions-av\">https://www.blackhillsinfosec.com/powershell-without-powershell-how-to-bypass-application-whitelisting-environment-restrictions-av</a>"
+        },
+        {
+            "name" : "SERVICIO MALICIOSO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-18.png",
+            "type" : "persist",
+            "id" : "18",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/SILENTTRINITY\">https://github.com/byt3bl33d3r/SILENTTRINITY</a><a target=\"_blank\" href=\"https://learn.microsoft.com/es-es/sysinternals/downloads/sysinternals-suite\">https://learn.microsoft.com/es-es/sysinternals/downloads/sysinternals-suite</a>"
+        },
+        {
+            "name" : "ATAQUES CON DLL",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-19.png",
+            "type" : "persist",
+            "id" : "19",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/slyd0g/DLLHijackTest\">https://github.com/slyd0g/DLLHijackTest</a><a target=\"_blank\" href=\"https://github.com/Exploit-install/PowerSploit\">https://github.com/Exploit-install/PowerSploit</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/digging-deeper-vulnerable-windows-services\">https://www.blackhillsinfosec.com/digging-deeper-vulnerable-windows-services</a>"
+        },
+        {
+            "name" : "CONTROLADOR MALICIOSO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-20.png",
+            "type" : "persist",
+            "id" : "20",
+            "details" : "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Alureon\">https://en.wikipedia.org/wiki/Alureon</a>"
+        },
+        {
+            "name" : "ADICIÓN DE NUEVO USUARIO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-21.png",
+            "type" : "persist",
+            "id" : "20",
+            "details" : "<a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a><a target=\"_blank\" href=\"https://www.cobaltstrike.com\">https://www.cobaltstrike.com</a>"
+        },
+        {
+            "name" : "SHIMMING DE APLICACIONES",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-22.png",
+            "type" : "persist",
+            "id" : "21",
+            "details" : "<a target=\"_blank\" href=\"https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install\">https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install</a><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1546/011/\">https://attack.mitre.org/techniques/T1546/011/</a>"
+        },
+        {
+            "name" : "PLUGINS DE NAVEGADOR MALICIOSOS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-23.png",
+            "type" : "persist",
+            "id" : "22",
+            "details" : "<a target=\"_blank\" href=\"https://www.kaspersky.es/blog/dangers-of-browser-extensions/27625/\">https://www.kaspersky.es/blog/dangers-of-browser-extensions/27625/</a><a target=\"_blank\" href=\"https://github.com/graniet/chromebackdoor\">https://github.com/graniet/chromebackdoor</a>"
+        },
+        {
+            "name" : "SCRIPTS DE INICIO DE SESIÓN",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-24.png",
+            "type" : "persist",
+            "id" : "23",
+            "details" : "<a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/backdoors-breaches-logon-scripts\">https://www.blackhillsinfosec.com/backdoors-breaches-logon-scripts</a>"
+        },
+        {
+            "name" : "FIRMWARE MALICIOSO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-25.png",
+            "type" : "persist",
+            "id" : "25",
+            "details" : "<a target=\"_blank\" href=\"https://threatpost.com/uefi-rootkit-sednit/140420\">https://threatpost.com/uefi-rootkit-sednit/140420</a><a target=\"_blank\" href=\"https://thehackernews.com/2020/12/trickbot-malware-gets-uefibios-bootkit.html\">https://thehackernews.com/2020/12/trickbot-malware-gets-uefibios-bootkit.html</a>"
+        },
+        {
+            "name" : "CARACTERÍSTICAS DE ACCESIBILIDAD",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-26.png",
+            "type" : "persist",
+            "id" : "26",
+            "details" : "<a target=\"_blank\" href=\"https://shop.hak5.org\">https://shop.hak5.org</a>"
+        },
+        {
+            "name" : "HTTP COMO CANAL DE EXFILTRACIÓN",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-27.png",
+            "type" : "c2",
+            "id" : "27",
+            "details" : "<a target=\"_blank\" href=\"https://www.thec2matrix.com/\">https://www.thec2matrix.com/</a>"
+        },
+        {
+            "name" : "HTTPS COMO CANAL DE EXFILTRACIÓN",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-28.png",
+            "type" : "c2",
+            "id" : "28",
+            "details" : "<a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1573/\">https://attack.mitre.org/techniques/T1573/</a><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/SILENTTRINITY\">https://github.com/byt3bl33d3r/SILENTTRINITY</a>"
+        },
+        {
+            "name" : "DNS Como C2",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-29.png",
+            "type" : "c2",
+            "id" : "29",
+            "details" : "<a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/bypassing-cylance-part-2-using-dnscat2\">LINKHERE</a>"
+        },
+        {
+            "name" : "SERVICIO DE TRANSFERENCIA INTELIGENTE EN SEGUNDO PLANO DE WINDOWS (BITS)",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-30.png",
+            "type" : "c2",
+            "id" : "30",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/deruke/HERRAMIENTAS\">https://github.com/deruke/HERRAMIENTAS</a><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1197/\">https://attack.mitre.org/techniques/T1197/</a>"
+        },
+        {
+            "name" : "GMAIL, TUMBLR, SALESFORCE, TWITTER COMO C2",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-31.png",
+            "type" : "c2",
+            "id" : "31",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/gcat\">https://github.com/byt3bl33d3r/gcat</a><a target=\"_blank\" href=\"https://github.com/DakotaNelson/sneaky-creeper\">https://github.com/DakotaNelson/sneaky-creeper</a>"
+        },
+        {
+            "name" : "ENCUBRIMIENTO DE DOMINIOS COMO C2",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-32.png",
+            "type" : "c2",
+            "id" : "32",
+            "details" : "<a target=\"_blank\" href=\"https://www.cobaltstrike.com\">https://www.cobaltstrike.com</a><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/bypass-web-proxy-filtering\">https://www.blackhillsinfosec.com/bypass-web-proxy-filtering</a>"
+        },
+        {
+            "name" : "ANÁLISIS DEL SERVIDOR",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-33.png",
+            "type" : "procedure",
+            "id" : "33",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/sans-blue-team/DeepBlueCLI\">https://github.com/sans-blue-team/DeepBlueCLI</a>"
+        },    
+        {
+            "name" : "ANÁLISIS DE BITACORAS DE SIEM",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-34.png",
+            "type" : "procedure",
+            "id" : "34",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a><a target=\"_blank\" href=\"https://jpcertcc.github.io/ToolAnalysisResultSheet\">https://jpcertcc.github.io/ToolAnalysisResultSheet</a>"
+        },           
+        {
+            "name" : "REVISIÓN DE BITÁCORAS DE FIREWALL",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-35.png",
+            "type" : "procedure",
+            "id" : "35",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a>"
+        },
+        {
+            "name" : "CACERÍA DE AMENAZAS DE RED CON HERRAMIENTAS ZEEK Y RITA",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-36.png",
+            "type" : "procedure",
+            "id" : "36",
+            "details" : "<a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-HERRAMIENTAS/\">https://www.activecountermeasures.com/free-HERRAMIENTAS/</a><a target=\"_blank\" href=\"https://securityonionsolutions.com/\">https://securityonionsolutions.com/</a>"
+        },
+        {
+            "name" : "CIBERENGAñO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-37.png",
+            "type" : "procedure",
+            "id" : "37",
+            "details" : "<a target=\"_blank\" href=\"https://engage.mitre.org/\">https://engage.mitre.org/</a><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd/\">https://www.activecountermeasures.com/free-tools/adhd/</a>"
+        },
+        {
+            "name" : "ANÁLISIS DE SEGURIDAD DE PROTECCIÓN DE ENDPOINTS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-38.png",
+            "type" : "procedure",
+            "id" : "38",
+            "details" : "<a target=\"_blank\" href=\"https://docs.velociraptor.app/\">https://docs.velociraptor.app/</a><a target=\"_blank\" href=\"https://www.elastic.co/downloads/elastic-agent\">https://www.elastic.co/downloads/elastic-agent</a>"
+        },
+        {
+            "name" : "ANÁLISIS DE COMPORTAMIENTO DE USUARIOS Y ENTIDADES (UEBA)",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-39.png",
+            "type" : "procedure",
+            "id" : "39",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/JPCERTCC/LogonTracer\">https://github.com/JPCERTCC/LogonTracer</a><a target=\"_blank\" href=\"https://openuba.org/\">https://openuba.org/</a>"
+        },
+        {
+            "name" : "ANÁLISIS DE ENDPOINTS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-40.png",
+            "type" : "procedure",
+            "id" : "40",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/sans-blue-team/DeepBlueCLI\">https://github.com/sans-blue-team/DeepBlueCLI</a><a target=\"_blank\" href=\"https://docs.velociraptor.app/\">https://docs.velociraptor.app/</a>"
+        },
+        {
+            "name" : "AISLAMIENTO",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-41.png",
+            "type" : "procedure",
+            "id" : "41",
+            "details" : ""
+        },
+        {
+            "name" : "GESTIÓN DE CRISIS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-42.png",
+            "type" : "procedure",
+            "id" : "42",
+            "details" : ""
+        },
+        {
+            "name" : "ANÁLISIS DE MEMORIA",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-43.png",
+            "type" : "procedure",
+            "id" : "43",
+            "details" : "<a target=\"_blank\" href=\"https://docs.velociraptor.app/\">https://docs.velociraptor.app/</a><a target=\"_blank\" href=\"https://www.volatilityfoundation.org/\">https://www.volatilityfoundation.org/</a>"
+        },
+        {
+            "name" : "HONEYPOTS DESPLEGADOS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-44.png",
+            "type" : "inject",
+            "id" : "44",
+            "details" : "<a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd\">https://www.activecountermeasures.com/free-tools/adhd</a><a target=\"_blank\" href=\"https://canarytokens.org/generate\">https://canarytokens.org/generate</a>"
+        },
+        {
+            "name" : "FUE UN PENTEST",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-45.png",
+            "type" : "inject",
+            "id" : "45",
+            "details" : "<a target=\"_blank\" href=\"https://www.blackhillsinfosec.com\">https://www.blackhillsinfosec.com</a>"
+        },
+        {
+            "name" : "DATOS SUBIDOS A PASTEBIN",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-46.png",
+            "type" : "inject",
+            "id" : "46",
+            "details" : ""
+        },
+        {
+            "name" : "ANALISTA DE SIEM VUELVE DEL ENTRENAMIENTO EN SPLUNK",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-47.png",
+            "type" : "inject",
+            "id" : "47",
+            "details" : ""
+        },
+        {
+            "name" : "QUITAR UNA CARTA DE PROCEDIMIENTOS",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-48.png",
+            "type" : "inject",
+            "id" : "48",
+            "details" : ""
+        },
+        {
+            "name" : "PROVEE A LOS DEFENSORES CON UNA CARTA DE PROCEDIMIENTO AL AZAR",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-49.png",
+            "type" : "inject",
+            "id" : "49",
+            "details" : ""
+        },
+        {
+            "name" : "EL/LA COORDINADOR(A) DE INCIDENTES SE TOMA VACACIONES DE PATERNIDAD/MATERNIDAD",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-50.png",
+            "type" : "inject",
+            "id" : "50",
+            "details" : ""
+        },
+        {
+            "name" : "EL PASANTE ROBERTITO INHABILITA EL SISTEMA QUE SE ENCUENTRA BAJO REVISIÓN.",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-51.png",
+            "type" : "inject",
+            "id" : "51",
+            "details" : ""
+        },
+        {
+            "name" : "EL DEPARTAMENTO LEGAL SE LLEVA A TU MEJOR COORDINADOR DE INCIDENTES A UNA REUNION PARA EXPLICAR EL INCIDENTE QUE SE ESTÁ INVESTIGANDO.",
+            "image" : "decks/CoreV2.2_Spanish/BNB_SPANISH_v1.0-52.png",
+            "type" : "inject",
+            "id" : "52",
+            "details" : ""
+        }
+    ],
+
+    "red": "img/CARD_BACK_SP_v1.0-1.png",
+    "yellow": "img/CARD_BACK_SP_v1.0-5.png",
+    "brown": "img/CARD_BACK_SP_v1.0-4.png",
+    "purple": "img/CARD_BACK_SP_v1.0-3.png",
+    "grey":   "img/CARD_BACK_SP_v1.0-6.png",
+    "green":  "",
+    "logo":   "img/antisyphon.png"
+
+}

@@ -61,6 +61,10 @@ function opendeckselector() {
       {
         cardlist = "decks/RedCanary/carddb.json";
       }
+      if (selecteddeck == "Spanish 1.0")
+      {
+        cardlist = "decks/CoreV2.2_Spanish/carddb.json";
+      }
   
           $.getJSON(cardlist, function(h) {
               $(a).html("<img class='full' src='"+h.red+"'>");
