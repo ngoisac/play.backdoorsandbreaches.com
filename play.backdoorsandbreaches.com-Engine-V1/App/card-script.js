@@ -14,10 +14,10 @@ function shuffle(a) {
 
 function rando() {
         //document.getElementById("dm_solution").innerHTML = "";
-
+        
         shuffle(proc);
         document.getElementById("output").innerHTML = proc.slice(0, 4).join("");
-        document.getElementById("remainder").innerHTML = proc.slice(4, 12).join("");
+        document.getElementById("remainder").innerHTML = proc.slice(4, proc.length).join("");
 
         shuffle(init);
         document.getElementById("a").innerHTML = init.slice(0,1);
@@ -327,10 +327,15 @@ PER = 0
 
 
     function buildlist(item, i) {
-      //console.log("buildList started");
-      $.getJSON(cardlist, function(h) {
+      
+      //$.getJSON(cardlist, function(h) {
         //console.log(h);
         //console.log("This is what we are trying to build");
+
+        //There used to be a getJSON call for the deck here
+        //This was removed and replaced by cardData, which is stored
+        //after the getJSON function in deck-script. 
+        let h = cardData;
         $.each(h.data, function(i, x) {
           
 
@@ -346,7 +351,7 @@ PER = 0
 
               if (item=="ins" && x.type=="inject") {
                   c="inject"
-                  console.log("inject found");
+                  //console.log("inject found");
                   if (x.details==null|| x.details==""){
                        li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='inject"+x.id+"'><img src='"+x.image+"'></a></div>"
                      } else {
@@ -397,7 +402,7 @@ PER = 0
 
                   if (item=="cons" && x.type=="consultant") {
                     hasConsultants = true; //We have consultants if we reach here, so let the world know!
-                    console.log("CONSULTANTS!");
+                    
                     c="consultant"
                     if (x.details==null|| x.details==""){
                          li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='consultant"+x.id+"'><img src='"+x.image+"'></a></div>"
@@ -415,10 +420,10 @@ PER = 0
               });
               if (h.addOnEnabled == "true" || h.addOnEnabled == "True")
               {
-                console.log("This deck allows add-on scenarios");
+                //console.log("This deck allows add-on scenarios");
                 hasAddOns = true;
               }
-          });
+          //});
       }
 
 var cardlist;
@@ -432,18 +437,18 @@ var ins = []
 var cons = [];
 
 
-$(document).ready(function() {
+function initCardList() {
 
   // Determine Deck Selection
   deck = localStorage.getItem("deckKey");
   if (deck === null)
   {
-    deck = "CoreV21";
+    deck = "CoreV22";
     console.log("null deck, choosing default");
   }
 
   
-    updatedeck(deck);
+    //updatedeck(deck);
   
   //GetVersion
     $.getJSON(cardlist, function(h) {
@@ -456,12 +461,29 @@ $(document).ready(function() {
    //BUILD LISTS
    cardtype = ["proc", "init", "pivot", "c2", "persist", "ins", "cons"];
    cardtype.forEach(buildlist);
-   finishedBuild = true;
+   //finishedBuild = true;
    //updatedeck(deck);
+
+   //EXPERIMENTAL: Try initializing the deck checks here, which makes a lot more sense
+   if (hasConsultants == false)
+      {
+        $("#consultantButton").hide();
+
+      }
+      else{
+        $("#consultantButton").show();
+      }
+      
+      //check for Add-On Scenarios as well
+      if (hasAddOns == false)
+      {
+        $("#addonbutton").hide();
+        $("#addonbuttonSolution").hide();
+      }
 
 
    
-  });
+  }
 
 //DEBUG CARD POOL:
 /*

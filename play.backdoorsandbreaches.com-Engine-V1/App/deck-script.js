@@ -3,6 +3,8 @@
 //
 
 //UI Elements
+
+var cardData
 function opendeckselector() {
     document.getElementById("myForm").style.display = "block";
     document.getElementById("deckselectoropen").style.display = "none";
@@ -12,32 +14,35 @@ function opendeckselector() {
     document.getElementById("myForm").style.display = "none";
       document.getElementById("deckselectoropen").style.display = "block";
   }
-  //State is true means starting scenario
+  
+
   function updatedeck(choice) {
           deck = choice;
           if (localStorage.getItem("deckKey") === null)
           {
             console.log("first time?");
-            localStorage.setItem("deckKey", "CoreV21");
+            localStorage.setItem("deckKey", "CoreV22");
           }
           localStorage.setItem("deckKey", deck);
           //console.log(deck);
-          loaddeck();
+
+          //If we are loading the same deck, we don't need to reload
+          if (choice != localStorage.getItem("deckKey"))
+            loaddeck();
   }
   
   var selecteddeck;
   
   //DECK LOADER
   async function loaddeck() {
-    //console.log("loadDeck called with " + state);
+  
   
   selecteddeck = localStorage.getItem("deckKey");
   //if it is null, that means it is the first time that we are entering the website, so let's just set it to the core deck
   if (selecteddeck === null)
   {
-    selecteddeck = 'CoreV21';
+    selecteddeck = 'CoreV22';
   }
-  console.log(selecteddeck);
       if (selecteddeck == 'CoreV1'){
           cardlist = 'decks/CoreV1/carddb.json'
           }
@@ -65,8 +70,12 @@ function opendeckselector() {
       {
         cardlist = "decks/CoreV2.2_Spanish/carddb.json";
       }
+      if (selecteddeck == "DenSecure")
+      {
+        cardlist = "decks/DenSecure/carddb.json";
+      }
   
-          $.getJSON(cardlist, function(h) {
+      let result = $.getJSON(cardlist, function(h) {
               $(a).html("<img class='full' src='"+h.red+"'>");
               $(b).html("<img class='full' src='"+h.yellow+"'>");
               $(c).html("<img class='full' src='"+h.brown+"'>");
@@ -81,12 +90,19 @@ function opendeckselector() {
   
               //update logo
               $(copyright).html("<a target='_blank' href='https://www.blackhillsinfosec.com/projects/backdoorsandbreaches'><div id='bb'></div></a><a target='_blank' href='https://www.blackhillsinfosec.com/'><div id='bh'></div></a><a target='_blank' href='"+h.link+"'><div class='sponsor' style=' background-image: url("+h.logo+");'></div></a>");
-          
-              console.log("finished loading deck from loaddeck!");
-              console.log(h);
-            });
         
-  //console.log(cardlist)
+              cardData = h; //set cardData to equal the JSON, so we simply reference memory rather than download again
+            });
+            await result;
+            
+        
   
+  }
+
+  async function initDeck()
+  {
+    await(loaddeck());
+    initCardList();
+    rando();
   }
   

@@ -15,14 +15,16 @@
   </div>
   <div class="form-popup" id="myForm">
           <form class="form-container" onsubmit="updatedeck(deck.value);">
-              Available Decks: <br>
+              Available Decks: 
+              <br>
               <input type="radio" id="corev22" name="deck" value="CoreV22" ><label for="corev22">CoreV2.2</label><br>
+              <input type="radio" id="spanish" name="deck" value="Spanish 1.0"><label for="spanish">Core-Spanish 1.0</label><br>
               <input type="radio" id="expansion12" name="deck" value="Expansion1-2" ><label for="expansion12">Expansion 1.2</label><br>
-              <input type="radio" id="huntress" name="deck" value="Huntress" ><label for="huntress">Huntress Deck</label><br>
-              <input type="radio" id="icsotV1" name="deck" value="ICSOT" ><label for="icsotV1">ICS/OTv1</label><br>
               <input type="radio" id="cloudSecurity" name="deck" value="Cloud Security" ><label for="cloudSecurity">Cloud Security</label><br>
+              <input type="radio" id="huntress" name="deck" value="Huntress" ><label for="huntress">Huntress Deck</label><br>
               <input type="radio" id="redCanary" name="deck" value="Red Canary"><label for="redCanary">Red Canary</label><br>
-              <input type="radio" id="spanish" name="deck" value="Spanish 1.0"><label for="spanish">Spanish 1.0</label><br>
+              <input type="radio" id="DenSecure" name="deck" value="DenSecure"><label for="DenSecure">DenSecure</label><br>
+              <input type="radio" id="icsotV1" name="deck" value="ICSOT" ><label for="icsotV1">ICS/OTv1</label><br>
               <br>
           <button type="submit" class="btn" >Submit</button>
           <button type="button" class="btn cancel" onclick="closedeckselector()">Close Deck Selector</button>
@@ -331,7 +333,7 @@
 
   $('#forAddOn').prop('checked', false); //make sure that the game starts with select add on disabled in custom
 
-    console.log("entered the new script");
+    
     selectedDeck = localStorage.getItem("deckKey");
   
     if (selectedDeck == null)
@@ -340,39 +342,11 @@
       console.log("deck is not found/initilized, setting to CoreV22");
     }
   
-    function checkBuild() {
-    if (finishedBuild === true) {
-      //updatedeck(selectedDeck, true);
+    
 
-        //Check if our deck has consultants
-      if (hasConsultants === false)
-      {
-        console.log("Looks like there are not any consultants in this deck");
-        $("#consultantButton").hide();
-
-      }
-      else{
-        $("#consultantButton").show();
-        console.log("consultants are present in this deck");
-      }
-      
-      //check for Add-On Scenarios as well
-      if (hasAddOns == false)
-      {
-        $("#addonbutton").hide();
-        $("#addonbuttonSolution").hide();
-        console.log("no add-on scenarios are present in this deck");
-      }
-
-
-      rando();
-    } else {
-      setTimeout(checkBuild, 1000);
-    }
-  }
+  initDeck();
+  //after the deck is initialized, we need to check the deck and modify the results to fit it
   
-  // Start checking if we finished building
-  checkBuild();
 
 
   //Deck flip.js from the original code for teh add-on scenario tools
