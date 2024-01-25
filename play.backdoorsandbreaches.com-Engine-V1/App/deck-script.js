@@ -38,8 +38,6 @@ function opendeckselector() {
   
   
   selecteddeck = localStorage.getItem("deckKey");
-
-  console.log("Beginning loading of deck " + selecteddeck);
   //if it is null, that means it is the first time that we are entering the website, so let's just set it to the core deck
   if (selecteddeck === null)
   {
@@ -76,10 +74,6 @@ function opendeckselector() {
       {
         cardlist = "decks/DenSecure/carddb.json";
       }
-      if(selecteddeck == "Trimarc")
-      {
-        cardlist = "decks/Trimarc/carddb.json";
-      }
   
       let result = $.getJSON(cardlist, function(h) {
               $(a).html("<img class='full' src='"+h.red+"'>");
@@ -92,19 +86,14 @@ function opendeckselector() {
               $(initc).html("<img src='"+h.brown+"'>");
               $(initd).html("<img src='"+h.purple+"'>");
   
-              $(e).html("<img style='width:200px;' src='"+h.grey+"'>");
-
-              //Update Consultant image
-              $(f).html('<img style="width:200px;" src="' + h.green +'">');
+              $(e).html("<img style='width:200px;' src='"+h.grey+"'>")
   
               //update logo
               $(copyright).html("<a target='_blank' href='https://www.blackhillsinfosec.com/projects/backdoorsandbreaches'><div id='bb'></div></a><a target='_blank' href='https://www.blackhillsinfosec.com/'><div id='bh'></div></a><a target='_blank' href='"+h.link+"'><div class='sponsor' style=' background-image: url("+h.logo+");'></div></a>");
         
               cardData = h; //set cardData to equal the JSON, so we simply reference memory rather than download again
             });
-            console.log(h);
             await result;
-            console.log("Finished.")
             
         
   
