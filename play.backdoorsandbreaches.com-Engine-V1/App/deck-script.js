@@ -74,6 +74,10 @@ function opendeckselector() {
       {
         cardlist = "decks/DenSecure/carddb.json";
       }
+      if(selecteddeck == "Trimarc")
+      {
+        cardlist = "decks/Trimarc/carddb.json";
+      }
   
       let result = $.getJSON(cardlist, function(h) {
               $(a).html("<img class='full' src='"+h.red+"'>");
@@ -86,7 +90,10 @@ function opendeckselector() {
               $(initc).html("<img src='"+h.brown+"'>");
               $(initd).html("<img src='"+h.purple+"'>");
   
-              $(e).html("<img style='width:200px;' src='"+h.grey+"'>")
+              $(e).html("<img style='width:200px;' src='"+h.grey+"'>");
+
+              //Update Consultant image
+              $(f).html('<img style="width:200px;" src="' + h.green +'">');
   
               //update logo
               $(copyright).html("<a target='_blank' href='https://www.blackhillsinfosec.com/projects/backdoorsandbreaches'><div id='bb'></div></a><a target='_blank' href='https://www.blackhillsinfosec.com/'><div id='bh'></div></a><a target='_blank' href='"+h.link+"'><div class='sponsor' style=' background-image: url("+h.logo+");'></div></a>");
