@@ -38,6 +38,8 @@ function opendeckselector() {
   
   
   selecteddeck = localStorage.getItem("deckKey");
+
+  console.log("Beginning loading of deck " + selecteddeck);
   //if it is null, that means it is the first time that we are entering the website, so let's just set it to the core deck
   if (selecteddeck === null)
   {
@@ -100,7 +102,9 @@ function opendeckselector() {
         
               cardData = h; //set cardData to equal the JSON, so we simply reference memory rather than download again
             });
+            console.log(h);
             await result;
+            console.log("Finished.")
             
         
   
