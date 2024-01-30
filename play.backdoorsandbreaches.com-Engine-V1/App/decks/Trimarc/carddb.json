@@ -600,10 +600,10 @@
         },
         {
             "name" : "SEANbot",
-            "image" : "",
+            "image" : "decks/Trimarc/TRIMARC_34.png",
             "type" : "consultant",
             "id" : "085",
-            "details" : "decks/"
+            "details" : ""
         }
     ],
 
