@@ -26,6 +26,7 @@
               <input type="radio" id="DenSecure" name="deck" value="DenSecure"><label for="DenSecure">DenSecure</label><br>
               <input type="radio" id="Trimarc" name="deck" value="Trimarc"><label for="Trimarc">Trimarc</label><br>
               <input type="radio" id="icsotV1" name="deck" value="ICSOT" ><label for="icsotV1">ICS/OTv1</label><br>
+              <input type="radio" id="EverythingDeck" name="deck" value="Everything Deck" ><label for="EverythingDeck">The MEGA Deck</label><br>
               <br>
           <button type="submit" class="btn" >Submit</button>
           <button type="button" class="btn cancel" onclick="closedeckselector()">Close Deck Selector</button>
@@ -304,23 +305,23 @@
   </div>
   
   
-  <!-- COUNTERS -->
-  <div id="counter1" class="counter">1</div>
-  <div id="counter2" class="counter">2</div>
-  <div id="counter3" class="counter">3</div>
-  
-  <!-- HOLD COUNTER -->
-  <div id="hold1" class="xcounter">x</div>
-  <div id="hold2" class="xcounter">x</div>
-  <div id="hold3" class="xcounter">x</div>
-  
+
   
   <!-- ATTRIBUTION -->
    <div id="copyright">
   
    </div>
   
-  
+      <!-- COUNTERS -->
+      <div id="counter1" class="counter" style="top: 360px; left: 240px;">1</div>
+      <div id="counter2" class="counter" style="top: 360px; left: 240px;">2</div>
+      <div id="counter3" class="counter" style="top: 360px; left: 240px;">3</div>
+      
+      <!-- HOLD COUNTER -->
+      <div id="hold1" class="xcounter" style="top: 360px; left: 320px;">x</div>
+      <div id="hold2" class="xcounter" style="top: 360px; left: 320px;">x</div>
+      <div id="hold3" class="xcounter" style="top: 360px; left: 320px;">x</div>
+      
   
   <script src="lightbox.js"></script>
     <!-- DICE SCRIPT-->
@@ -347,7 +348,6 @@
 
   initDeck();
   //after the deck is initialized, we need to check the deck and modify the results to fit it
-  
 
 
   //Deck flip.js from the original code for teh add-on scenario tools
@@ -409,4 +409,3 @@ addonbacks.forEach((xc) =>
     
   
   </script>
-  
