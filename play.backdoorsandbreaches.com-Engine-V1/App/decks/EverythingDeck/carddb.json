@@ -1,7 +1,7 @@
 {
     "title": "The EVERYTHING DECK",
     "revdate": "06-17-2024",
-    "link": "https://www.antisyphontraining.com/",
+    "link": "collaborators.html",
     "data" : [
         {
             "name" : "HTTP as Exfil",
@@ -1908,7 +1908,7 @@
     "purple": "img/bb-back-persist.png",
     "grey":   "img/bb-back-inject.png",
     "green":  "img/bb-back-consultant.png",
-    "logo":   "img/antisyphon.png",
+    "logo":   "decks/EverythingDeck/All_Logos.png",
     "addOnEnabled":"true"
 
 }
