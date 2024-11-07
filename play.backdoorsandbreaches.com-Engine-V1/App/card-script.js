@@ -342,7 +342,6 @@ PER = 0
 
         countID = 1;
         $.each(h.data, function(i, x) {
-          console.log(countID);
 
               if (item=="proc" && x.type=="procedure") {
                   c ="procimg"
