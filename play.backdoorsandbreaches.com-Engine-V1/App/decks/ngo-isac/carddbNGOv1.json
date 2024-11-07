@@ -425,112 +425,112 @@
 		},
 		{
 			"name": "Mobile Spyware",
-			"image": "decks/ngo-isac/humbb-card-10.PNG",
+			"image": "decks/ngo-isac/humbb-card-09.PNG",
 			"type": "initial",
 			"id": "060",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Locally Developed App",
-			"image": "decks/ngo-isac/humbb-card-11.PNG",
+			"image": "decks/ngo-isac/humbb-card-10.PNG",
 			"type": "initial",
 			"id": "061",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Upstream Partner",
-			"image": "decks/ngo-isac/humbb-card-12.PNG",
+			"image": "decks/ngo-isac/humbb-card-11.PNG",
 			"type": "initial",
 			"id": "062",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Shadow IT",
-			"image": "decks/ngo-isac/humbb-card-14.PNG",
+			"image": "decks/ngo-isac/humbb-card-12.PNG",
 			"type": "persist",
 			"id": "063",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "SatComms",
-			"image": "decks/ngo-isac/humbb-card-15.PNG",
+			"image": "decks/ngo-isac/humbb-card-13.PNG",
 			"type": "c2",
 			"id": "064",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Shared Network Fabric",
-			"image": "decks/ngo-isac/humbb-card-16.PNG",
+			"image": "decks/ngo-isac/humbb-card-14.PNG",
 			"type": "c2",
 			"id": "065",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Persona Non Grata",
-			"image": "decks/ngo-isac/humbb-card-17.PNG",
+			"image": "decks/ngo-isac/humbb-card-15.PNG",
 			"type": "inject",
 			"id": "066",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Data Knows Borders",
-			"image": "decks/ngo-isac/humbb-card-18.PNG",
+			"image": "decks/ngo-isac/humbb-card-16.PNG",
 			"type": "inject",
 			"id": "067",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Nervous Executive",
-			"image": "decks/ngo-isac/humbb-card-19.PNG",
+			"image": "decks/ngo-isac/humbb-card-17.PNG",
 			"type": "inject",
 			"id": "068",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Donors are Worried",
-			"image": "decks/ngo-isac/humbb-card-20.PNG",
+			"image": "decks/ngo-isac/humbb-card-18.PNG",
 			"type": "inject",
 			"id": "069",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "In My Last Place",
-			"image": "decks/ngo-isac/humbb-card-21.PNG",
+			"image": "decks/ngo-isac/humbb-card-19.PNG",
 			"type": "inject",
 			"id": "070",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "The Government Inspector",
-			"image": "decks/ngo-isac/humbb-card-22.PNG",
+			"image": "decks/ngo-isac/humbb-card-20.PNG",
 			"type": "inject",
 			"id": "071",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Integrated Risk Management",
-			"image": "decks/ngo-isac/humbb-card-23.PNG",
+			"image": "decks/ngo-isac/humbb-card-21.PNG",
 			"type": "procedure",
 			"id": "072",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Digital Partnerships",
-			"image": "decks/ngo-isac/humbb-card-24.PNG",
+			"image": "decks/ngo-isac/humbb-card-22.PNG",
 			"type": "procedure",
 			"id": "073",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "Cyber Insurance",
-			"image": "decks/ngo-isac/humbb-card-25.PNG",
+			"image": "decks/ngo-isac/humbb-card-23.PNG",
 			"type": "procedure",
 			"id": "074",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
 		},
 		{
 			"name": "NGO-ISAC",
-			"image": "decks/ngo-isac/humbb-card-26.PNG",
+			"image": "decks/ngo-isac/humbb-card-24.PNG",
 			"type": "procedure",
 			"id": "075",
 			"details": "<li><a target=\"_blank\" href=\"URL\"></a></li>"
