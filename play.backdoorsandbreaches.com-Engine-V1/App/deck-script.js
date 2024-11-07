@@ -82,6 +82,11 @@ function opendeckselector() {
       {
         cardlist = "decks/EverythingDeck/carddb.json";
       }
+      ngostr='ngo-isac';
+      if (selecteddeck == ngostr)
+      {
+        cardlist = "decks/"+ngostr+"/carddbNGOv1.json";
+      }
       try{
         let result = $.getJSON(cardlist, function(h) {
           $(a).html("<img class='full' src='"+h.red+"'>");
