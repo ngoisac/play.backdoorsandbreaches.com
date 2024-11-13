@@ -123,13 +123,6 @@
             "details": "<li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd\">https://www.activecountermeasures.com/free-tools/adhd</a></li><li><a target=\"_blank\" href=\"https://canarytokens.org/generate\">https://canarytokens.org/generate</a></li>"
         },
         {
-            "name": "It Was a Pentest",
-            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_INJ-2.png",
-            "type": "inject",
-            "id": "017",
-            "details": "<a target=\"_blank\" href=\"https:/www.blackhillsinfosec.com\">https:/www.blackhillsinfosec.com</a>"
-        },
-        {
             "name": "Data Uploaded to Pastebin",
             "image": "decks/CoreV2.2/BNB_CARDS_v2.2_INJ-3.png",
             "type": "inject",
