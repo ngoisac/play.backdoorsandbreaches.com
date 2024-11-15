@@ -5,12 +5,17 @@ var finishedBuild = false;
 var hasConsultants = false;
 var hasAddOns = false;
 function shuffle(a) {
+  /* we require a static rigged deck for the ngoisac conference presentation to flow correctly */ 
+  console.warn('deck is rigged');
+  return a;
+}
+function xxshuffle(a) {
             for (let i = a.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [a[i], a[j]] = [a[j], a[i]];
             }
             return a;
-        }
+}
 
 function rando() {
         //document.getElementById("dm_solution").innerHTML = "";
