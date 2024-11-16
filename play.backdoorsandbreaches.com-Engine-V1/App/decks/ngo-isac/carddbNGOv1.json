@@ -3,6 +3,70 @@
     "revdate": "18-08-2023",
     "link": "",
     "data": [
+         {
+            "name" : "Internal Spearphishing",
+            "tilt": 1.2,
+            "image" : "decks/CoreV2.2-Expansion/BNB_CARDS_EXPANSION_V1.2_5.png",
+            "type" : "pivot",
+            "id" : "056",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1534\">https://attack.mitre.org/techniques/T1534</a></li>"
+        },
+        {
+            "name" : "Physical Access",
+            "tilt": 1.2,
+            "image" : "decks/CoreV2.2-Expansion/BNB_CARDS_EXPANSION_V1.2_3.png",
+            "type" : "initial",
+            "id" : "054",
+            "details" : "<li><a target=\"_blank\" href=\"https://youtu.be/rnmcRTnTNC8\">https://youtu.be/rnmcRTnTNC8</a></li>"
+        },
+        {
+            "name": "Gmail, Tumblr, Salesforce, Twitter as C2",
+            "tilt": 1.3,
+            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_CE-4.png",
+            "type": "c2",
+            "id": "005",
+            "details": "<li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/gcat\">https://github.com/byt3bl33d3r/gcat</a></li><li><a target=\"_blank\" href=\"https://github.com/DakotaNelson/sneaky-creeper\">https://github.com/DakotaNelson/sneaky-creeper</a></li>"
+        },
+        {
+            "name" : "Malicious Email Rules",
+            "tilt": 1.4,
+            "image" : "decks/CoreV2.2-Expansion/BNB_CARDS_EXPANSION_V1.2_11.png",
+            "type" : "persist",
+            "id" : "062",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1137\">https://attack.mitre.org/techniques/T1137</a></li>"
+        },
+        {
+            "name" : "Physical Security Review",
+            "tilt" :2.1 ,
+            "image" : "decks/CoreV2.2-Expansion/BNB_CARDS_EXPANSION_V1.2_16.png",
+            "type" : "procedure",
+            "id" : "067",
+            "details" : ""
+        },
+        {
+            "name": "Crisis Management",
+            "tilt" : 2.2,
+            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-10.png",
+            "type": "procedure",
+            "id": "050",
+            "details": ""
+        },
+        {
+            "name": "Security Information and Even Management (SIEM) Log Analysis",
+            "tilt" : 2.3,
+            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-0.png",
+            "type": "procedure",
+            "id": "041",
+            "details": "<li><a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a></li><li><a target=\"_blank\" href=\"https:/jpcertcc.github.io/ToolAnalysisResultSheet\">https:/jpcertcc.github.io/ToolAnalysisResultSheet</a></li>"
+        },
+        {
+            "name": "Network Threat Hunting - Zeek/RITA Analysis",
+            "tilt" : 2.4,
+            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-4.png",
+            "type": "procedure",
+            "id": "044",
+            "details": "<li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/\">https://www.activecountermeasures.com/free-tools/</a></li><li><a target=\"_blank\" href=\"https://securityonionsolutions.com/\">https://securityonionsolutions.com/</a></li>"
+        },
         {
             "name": "HTTP as Exfil",
             "image": "decks/CoreV2.2/BNB_CARDS_v2.2_CE-1-27.png",
@@ -30,13 +94,6 @@
             "type": "c2",
             "id": "004",
             "details": "<li><a target=\"_blank\" href=\"https://github.com/deruke/tools\">https://github.com/deruke/tools</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T 1197/\">https://attack.mitre.org/techniques/T 1197/</a></li>"
-        },
-        {
-            "name": "Gmail, Tumblr, Salesforce, Twitter as C2",
-            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_CE-4.png",
-            "type": "c2",
-            "id": "005",
-            "details": "<li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/gcat\">https://github.com/byt3bl33d3r/gcat</a></li><li><a target=\"_blank\" href=\"https://github.com/DakotaNelson/sneaky-creeper\">https://github.com/DakotaNelson/sneaky-creeper</a></li>"
         },
         {
             "name": "Domain Fronting as C2",
@@ -155,13 +212,6 @@
             "image": "decks/CoreV2.2/BNB_CARDS_v2.2_INJ-7.png",
             "type": "inject",
             "id": "022",
-            "details": ""
-        },
-        {
-            "name": "Bobby the Intern Kills the System You are Reviewing",
-            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_INJ-8.png",
-            "type": "inject",
-            "id": "023",
             "details": ""
         },
         {
@@ -284,13 +334,6 @@
             "details": "<li><a target=\"_blank\" href=\"https://shop.hak5.org\">https://shop.hak5.org</a></li>"
         },
         {
-            "name": "Security Information and Even Management (SIEM) Log Analysis",
-            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-0.png",
-            "type": "procedure",
-            "id": "041",
-            "details": "<li><a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a></li><li><a target=\"_blank\" href=\"https:/jpcertcc.github.io/ToolAnalysisResultSheet\">https:/jpcertcc.github.io/ToolAnalysisResultSheet</a></li>"
-        },
-        {
             "name": "Server Analysis",
             "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-1.png",
             "type": "procedure",
@@ -303,13 +346,6 @@
             "type": "procedure",
             "id": "043",
             "details": "<li><a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a></li>"
-        },
-        {
-            "name": "Network Threat Hunting - Zeek/RITA Analysis",
-            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-4.png",
-            "type": "procedure",
-            "id": "044",
-            "details": "<li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/\">https://www.activecountermeasures.com/free-tools/</a></li><li><a target=\"_blank\" href=\"https://securityonionsolutions.com/\">https://securityonionsolutions.com/</a></li>"
         },
         {
             "name": "Cyber Deception",
@@ -344,13 +380,6 @@
             "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-9.png",
             "type": "procedure",
             "id": "049",
-            "details": ""
-        },
-        {
-            "name": "Crisis Management",
-            "image": "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-10.png",
-            "type": "procedure",
-            "id": "050",
             "details": ""
         },
         {
